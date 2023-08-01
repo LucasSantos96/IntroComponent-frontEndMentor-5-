@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+body {
+    background: url(./images/bg-intro-desktop.png);
+    min-height: 100vh;
+    background-color: hsl(0, 100%, 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-1 {
+    width: 400px;
+    /* background-color: #fff; */
+}
+
+.titulo {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.paragrafo-s1 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 18px;
+}
+
+.section-2 {
+    /*  */
+    padding: 30px;
+    border-radius: 6px;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+
+}
+
+.div-botao-1 {
+    background-color: hsl(248, 32%, 49%);
+    padding: 8px;
+    border-radius: 8px;
+    width: 380px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 13px -10px rgba(0, 0, 0, 0.75);
+
+
+}
+
+.botao-1 {
+    background-color: hsl(248, 32%, 49%);
+    color: #fff;
+    font-size: 12px;
+    
+    border: none;
+    cursor: pointer;
+
+}
+.span-btn{
+    font-weight: 700;
+}
+
+.conteudo-s2 {
+    width: 380px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 13px -10px rgba(0, 0, 0, 0.75);
+
+
+}
+
+.msg {
+    background-color: hsla(0, 85%, 57%, 0.589);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+
+
+}
+
+.input-s2 {
+    width: 92%;
+    margin: 12px;
+    border: none;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 10px;
+    font-style: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.div-botao-2 {
+    width: 100%;
+
+
+}
+
+.botao-2 {
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    border-radius: 3px;
+    width: 92%;
+    height: 40px;
+    margin: 15px;
+    cursor: pointer;
+    box-shadow: 0px 10px 13px -10px rgba(0, 0, 0, 0.75);
+
+}
+
+.paragrafo-s2 {
+    font-weight: 400;
+    font-size: 8px;
+    color: hsl(246, 25%, 77%);
+
+}
+
+a {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+}
+
+@media (max-width:700px ) {
+
+    body {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: url(images/bg-intro-mobile.png);
+        background-color:hsl(0, 100%, 74%) ;
+    }
+    .section-1{
+       text-align: center;
+       
+    }
+    .titulo{
+        font-size: 30px;
+    }
+    .div-botao-1 {
+        width: 280px;
+        height: 70px;
+        
+    }
+    .botao-1{
+        text-align: center;
+        font-size: 15px;
+    }
+    .conteudo-s2{
+        width: 280px;
+    }
+    .botao-2{
+        height: 55px;
+        font-size: 13px;
+    }
+}
